@@ -1,8 +1,8 @@
 package com.consumer.MQconsumer.service;
 
-import com.consumer.MQconsumer.dto.Message;
+import com.consumer.MQconsumer.dto.MessageQueue;
 
 public interface ConsumerService {
 
-    void action(Message message);
+    void action(MessageQueue message);
 }
